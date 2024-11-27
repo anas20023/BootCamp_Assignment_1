@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "surge": "^0.24.6"
   }
 }
