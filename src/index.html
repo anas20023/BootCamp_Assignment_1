@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Dist/output.css" />
+    <title>Nerdy</title>
+  </head>
+  <body class="font-IBM">
+    <!-- Navbar Section -->
+    <nav class="w-full py-6 bg-gray-200">
+      <div
+        class="flex flex-row justify-between items-center max-w-6xl mx-auto px-4 lg:px-2">
+        <a href="#" class="text-[#0f0f0f] text-2xl lg:text-4xl font-bold">Nerdy</a>
+        <button
+          class="md:hidden text-[#0f0f0f] text-2xl focus:outline-none"
+          id="menu-toggle">
+          &#9776;
+          <!-- Hamburger icon -->
+        </button>
+        <div
+          class="hidden md:flex flex-row text-sm font-normal space-x-6"
+          id="menu">
+          <ul
+            class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+            <li><a href="#" class="p-3 hover:no-underline">Home</a></li>
+            <li><a href="#" class="p-3 hover:no-underline">Projects</a></li>
+            <li><a href="#" class="p-3 hover:no-underline">About</a></li>
+            <li><a href="#" class="p-3 hover:no-underline">Contact</a></li>
+          </ul>
+        </div>
+        <button
+          class="hidden md:block bg-[#D8FB78] text-slate-950 rounded-full py-2 px-8 font-bold border border-slate-950">
+          Buy Now
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        class="flex flex-col items-center mt-4 space-y-4 md:hidden"
+        id="mobile-menu"
+        style="display: none">
+        <ul class="space-y-4">
+          <li>
+            <a href="#" class="block p-3 hover:bg-[#D8FB78] rounded-md">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block p-3 hover:bg-[#D8FB78] rounded-md"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block p-3 hover:bg-[#D8FB78] rounded-md"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block p-3 hover:bg-[#D8FB78] rounded-md"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button
+          class="w-full bg-[#D8FB78] text-slate-950 rounded-full py-2 font-bold border border-slate-950">
+          Buy Now
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar Section -->
+    <!-- Main Section -->
+    <main
+      class="flex flex-col justify-between items-center bg-gray-200 min-h-screen h-auto px-4">
+      <!-- Hero Section -->
+      <section
+        class="relative w-full bg-white mx-auto max-w-6xl my-6 rounded-lg flex flex-col lg:flex-row justify-between items-center p-6 md:p-10 shadow-lg">
+        <!-- Background Shapes -->
+        <div class="absolute inset-0 z-0">
+          <div
+            class="bg-green-300/30 w-60 h-60 rounded-full blur-3xl absolute -top-16 -left-16"></div>
+          <div
+            class="bg-green-500/20 w-96 h-96 rounded-full blur-2xl absolute top-32 right-32"></div>
+        </div>
+
+        <!-- Gradient Curved Line -->
+        <svg
+          class="absolute w-full h-full z-0"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 600 400"
+          fill="none"
+          preserveAspectRatio="none">
+          <!-- Adjusted Curved Path -->
+          <path
+            d="M0,400 C150,300 300,150 500,200"
+            stroke="#D8FB78"
+            stroke-width="2"
+            fill="transparent" />
+        </svg>
+
+        <!-- Text Content -->
+        <div
+          class="w-full lg:w-1/2 h-full p-4 z-10 text-center lg:text-left flex flex-col justify-center items-center lg:items-start">
+          <h1
+            class="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-950 leading-snug lg:leading-tight mb-4">
+            Designed to <br class="hidden md:block" />
+            effortlessly combine <br class="hidden md:block" />
+            style and functionality.
+          </h1>
+          <p class="text-sm md:text-base text-gray-700 mb-6">
+            Unlock your potential with Phitron's Online Judge, a dynamic
+            platform for honing your coding skills through a diverse range of
+            challenges for all experience levels.
+          </p>
+          <button
+            class="bg-[#D8FB78] text-slate-950 py-2 px-6 font-bold rounded-full transition transform duration-300">
+            Explore Deal
+          </button>
+        </div>
+        <!-- Image Content -->
+        <img
+          src="./Image/Rectangle 17854.png"
+          alt="Stylish person"
+          class="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto rounded-lg object-cover z-10 mt-6 lg:mt-0 lg:self-end" />
+      </section>
+      <!-- Hero Section -->
+      <!-- Product Section -->
+      <h1 class="text-center text-slate-800 text-4xl font-bold mt-20">
+        Best Selling Products
+      </h1>
+      <p class="text-sm text-center my-2 text-slate-800">
+        Unlock your potential with Phitron's Online Judge, a dynamic platform
+        for honing your coding skills through a <br />
+        diverse range of challenges for all experience levels.
+      </p>
+      <section
+        class="w-full mx-auto max-w-6xl my-6 flex flex-col md:flex-row justify-between items-center py-6 overflow-hidden gap-6">
+        <!-- Product Card 1-->
+        <div
+          class="bg-white rounded-lg shadow-md p-4 w-full md:w-1/3 flex flex-col items-start">
+          <!-- Product Image -->
+          <img
+            src="./Image/model-demonstrating-winter-cloths 1.png"
+            alt="Balenciaga Floral-Print Silk Shirt"
+            class="w-full h-40 bg-gray-100 object-contain rounded-md mb-4" />
+
+          <!-- Product Details -->
+          <h3 class="text-md text-left font-medium text-gray-900 mb-2">
+            Balenciaga Floral-Print Silk Shirt
+          </h3>
+          <h3 class="text-left font-medium text-gray-900 mb-2">$1644.00</h3>
+          <!-- Buy Now Button -->
+          <button
+            class="w-full mt-4 bg-[#D8FB78] text-black font-semibold py-2 px-8 rounded-full">
+            Buy Now
+          </button>
+          <div
+            class="flex flex-row justify-between items-center w-full gap-2 my-2">
+            <!-- Add to cart Button and a heart icon -->
+            <button
+              class="bg-white border w-[85%] border-slate-600 text-black font-semibold py-2 px-8 rounded-full hover:bg-slate-100 transition">
+              Add to Cart
+            </button>
+            <div
+              class="flex flex-col justify-center items-center border border-slate-700 hover:bg-red-500 hover:text-white hover:border-red-500 rounded-full p-4 hover:cursor-pointer gap-4">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 1-->
+
+        <!-- Product Card 2-->
+        <div
+          class="bg-white rounded-lg shadow-md p-4 w-full md:w-1/3 flex flex-col items-start">
+          <!-- Product Image -->
+          <img
+            src="./Image/model-demonstrating-winter-cloths 1.png"
+            alt="Balenciaga Floral-Print Silk Shirt"
+            class="w-full h-40 bg-gray-100 object-contain rounded-md mb-4" />
+
+          <!-- Product Details -->
+          <h3 class="text-md text-left font-medium text-gray-900 mb-2">
+            Balenciaga Floral-Print Silk Shirt
+          </h3>
+          <h3 class="text-left font-medium text-gray-900 mb-2">$1644.00</h3>
+          <!-- Buy Now Button -->
+          <button
+            class="w-full mt-4 bg-[#D8FB78] text-black font-semibold py-2 px-8 rounded-full">
+            Buy Now
+          </button>
+          <div
+            class="flex flex-row justify-between items-center w-full gap-2 my-2">
+            <!-- Add to cart Button and a heart icon -->
+            <button
+              class="bg-white border w-[85%] border-slate-600 text-black font-semibold py-2 px-8 rounded-full hover:bg-slate-100 transition">
+              Add to Cart
+            </button>
+            <div
+              class="flex flex-col justify-center items-center border border-slate-700 hover:bg-red-500 hover:text-white hover:border-red-500 rounded-full p-4 hover:cursor-pointer gap-4">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 2-->
+
+        <!-- Product Card 3-->
+        <div
+          class="bg-white rounded-lg shadow-md p-4 w-full md:w-1/3 flex flex-col items-start">
+          <!-- Product Image -->
+          <img
+            src="./Image/model-demonstrating-winter-cloths 1.png"
+            alt="Balenciaga Floral-Print Silk Shirt"
+            class="w-full h-40 bg-gray-100 object-contain rounded-md mb-4" />
+
+          <!-- Product Details -->
+          <h3 class="text-md text-left font-medium text-gray-900 mb-2">
+            Balenciaga Floral-Print Silk Shirt
+          </h3>
+          <h3 class="text-left font-medium text-gray-900 mb-2">$1644.00</h3>
+          <!-- Buy Now Button -->
+          <button
+            class="w-full mt-4 bg-[#D8FB78] text-black font-semibold py-2 px-8 rounded-full">
+            Buy Now
+          </button>
+          <div
+            class="flex flex-row justify-between items-center w-full gap-2 my-2">
+            <!-- Add to cart Button and a heart icon -->
+            <button
+              class="bg-white border w-[85%] border-slate-600 text-black font-semibold py-2 px-8 rounded-full hover:bg-slate-100 transition">
+              Add to Cart
+            </button>
+            <div
+              class="flex flex-col justify-center items-center border border-slate-700 hover:bg-red-500 hover:text-white hover:border-red-500 rounded-full p-4 hover:cursor-pointer gap-4">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 3-->
+      </section>
+
+      <!-- Product Section -->
+    </main>
+    <!-- Main Section -->
+    <!-- Footer Section -->
+    <footer
+      class="w-full bg-white flex flex-col justify-center items-center gap-2 py-10">
+      <div class="flex flex-col justify-center items-center w-full gap-2">
+        <a href="#" class="text-[#0f0f0f] text-2xl font-bold my-4">Nerdy</a>
+
+        <!-- Footer Navigation Links -->
+        <div
+          class="flex flex-wrap justify-center items-center text-sm gap-4 py-4">
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">Home</a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">Projects</a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">About</a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">Contact</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="flex flex-wrap justify-center items-center gap-6 text-2xl">
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">
+            <i class="fab fa-facebook text-2xl text-blue-600"></i>
+          </a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">
+            <i class="fab fa-x-twitter text-2xl"></i>
+          </a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">
+            <i class="fab fa-linkedin text-2xl text-blue-600"></i>
+          </a>
+          <a href="#" class="text-[#0f0f0f] text-sm font-normal">
+            <i class="fab fa-youtube text-2xl text-red-600"></i>
+          </a>
+        </div>
+
+        <!-- Gray Line Divider -->
+        <div
+          class="w-full max-w-xl mx-auto h-0.5 bg-gray-300 my-4 rounded-full"></div>
+      </div>
+
+      <!-- Subscribe Form -->
+      <form action="#" class="w-full max-w-screen-sm mx-auto mt-4">
+        <div
+          class="flex flex-col sm:flex-row items-center mb-3 space-y-4 sm:space-y-0 sm:space-x-4">
+          <div class="relative w-full">
+            <label
+              for="email"
+              class="hidden mb-2 text-sm font-medium text-gray-900"
+              >Email address</label
+            >
+            <input
+              class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+              placeholder="Enter your email"
+              type="email"
+              id="email"
+              required />
+          </div>
+
+          <div>
+            <button
+              type="submit"
+              class="py-3 px-5 w-full sm:w-auto text-sm font-bold text-center border border-slate-800 text-gray-800 rounded-full  cursor-pointer bg-[#D8FB78]">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </footer>
+    <!-- Footer Section -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>
